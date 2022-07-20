@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparks foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;1,300;1,600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                           <a href="index.html"> Sparks Foundatation</a>
+                    </div>
+                        <nav>
+                            <div class="nav-links" id="navlinks">
+                            <i class="fa fa-times sidenav" onclick="hidemenu()"></i>
+                            <ul>
+                                <li><a href="index.html"> Home</a></li>
+                                <li><a href="aboutus.html">About us</a> </li>
+                                <li><a href="contactus.html"> Contact us</a></li>
+                            </ul>
+                        </div>
+                            <i class="fa fa-bars sidenav" onclick="showmenu()"></i>
+                        </nav>
+                    </div>
+            </div>
+            <div class="banner_container">
+                <div class="banner">
+                    <div class="banner_layer">
+                    <div class="donate">
+                        <div class="main_content">
+                        <div class="heading">
+                            Welcome To The Family
+                        </div>
+                        <div class="main_heading">
+                            "Strong People Stand Up For Themselves,But Stronger People Stand Up For Others."
+                        </div>
+                        <div class="content">
+                            Helping One Person Might Not Change The World,But It Could Change The World For One Person.
+                        </div>
+                        <div class="content_sub">
+                            "We Rise By Lifting Others"
+                        </div>
+                    </div>
+                    <div class="donate_now">
+                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JvJFkqtFteNYeJ" async> </script> </form>
+                    </div>
+                </div>  
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+            <!-- ----------------------------------javascript --------------------------------------- -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.donate_now{
+    margin-top: 25vh;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */   
+}
+.container{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    /* background-color: rgba(34, 33, 33, 0.671); */
+}
+.sidenav{
+    display: none !important;
+}
+.logo{
+    width: 80%;
+    color: white;
+    font-size: large;
+    font-family: 'poppins',serif;
+    line-height: 70px;
+    margin-left: 10px;
+    font-weight: 800;
+    /* background-color: wheat; */
+}
+.header{
+    height: 76px;
+    width: 100%;
+    position: sticky;
+    /* background-color: black; */
+    display: flex;
+    position: absolute;
+}
+nav{
+    width: 24%;
+    height: 70px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;  
+    line-height: 70px;
+    /* background-color:aliceblue ; */
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    background-image: url("images/2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.heading{
+    margin-top: 40vh;
+    color: white;
+}
+.banner_layer{
+    background-color: rgba(34, 33, 33, 0.671);
+    height: 100vh;
+}
+.main_heading{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.content{
+    color: white;
+}
+.content_sub{
+    color: white;
+}
+
+/* ***********************************************aboutus page css strats here *******************************************/
+
+.aboutus_banner{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 10vh;
+    width: 70%;
+}
+.aboutus_img_banner{
+    background-image: url("images/1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.aboutus_banner_layer{
+    display: flex;
+    background-color: rgba(22, 22, 22, 0.822);
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 25%;
+    color: white;
+}
+.banner_content{
+    /* font-weight: 100; */
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: wheat;
+}
+.banner_heading{
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* ------------------------------- aboutus page css ends here---------------------------------------- */
+
+
+/* ------------------------------- Contact us page css starts here---------------------------------------- */
+
+.contactus_heading{
+    margin-top: 20vh;
+    font-size: x-large;
+    color: white;
+}
+.contact_section_container{
+    width: 100%;
+    margin-top: 10vh;
+    background-color: rgba(22, 22, 22, 0.822);;
+    display: flex;
+    justify-content: space-between;
+}
+.info_section{
+    width: 50%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.send_message_section{
+    padding-top: 10px;
+    width: 50%;
+}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 5px;
+}
+.info_heading,.info_desc{
+    margin-bottom: 5px;
+}
+.contact_banner_img{
+    background-image: url("images/3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.nav-links ul{
+    color: red;
+}
+/* ------------------------------- Contact us page css ends here---------------------------------------- */
+
+@media(max-width: 700px)
+{
+    .nav-links{
+        position: fixed;
+        background-color: rgba(15, 15, 15, 0.897);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;  
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+
+        display: block !important;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        }
+    nav .fa-bars{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    nav ul{
+        display: block;
+        margin-left: 10px;
+    }
+    .main_heading{
+        
+        /* margin-left: 10px; */
+        color: wheat;
+        font-size: 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .content{
+        text-align: center;
+        /* margin-left: 10px; */
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .content_sub{
+        color: white;
+    }
+    .banner_layer{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus_banner_layer{
+        display: flex;
+        background-color: rgba(22, 22, 22, 0.822);
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        height: 95vh;
+        width: 90%;
+        position: absolute;
+        margin-top: 15vh;
+        /* margin-left: ; */
+        color: white;
+    }
+    .aboutus_img_banner{
+        height: 110vh;
+        width: 100%;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .contact_section_container{
+        width: 90%;
+        margin-top: 10vh;
+        background-color: rgba(22, 22, 22, 0.822);;
+        display: block;
+        height: 78vh;
+    }
+    .info_section{
+
+        width: 90%;
+        color: white;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .send_message_section{
+        padding-top: 10px;
+        width: 50%;
+        margin-left: 50px;
+    }
+    .contact_banner_img{
+        height: 110vh;
+        width: 100%;
+    }
+    .contact_section_container{
+        width: 100%;
+        height: 76vh;
+        margin-top: 10vh;
+        background-color: rgba(22, 22, 22, 0.822);;
+    }
+}
